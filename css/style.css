@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+}
+
+header{
+    background:  #f6f9f9;
+    padding: 30px,0;
+}
+.container{
+   width:1140px;
+   margin:0  auto;
+   overflow:hidden;
+
+
+}
+.logo{
+    width: 20%;
+    padding:30px 0px;
+    float:left; 
+}
+.logo img{
+    
+}
+
+.menu{
+   float:left;
+    width: 80%;
+    padding:30px 0px;
+ 
+
+}
+.menu ul{margin: 0;padding: 0;text-align: right;}
+.menu ul li{list-style: none;display: inline-block;}
+.menu ul li a{color: #24262b;text-transform: uppercase;text-decoration: none;
+    padding: 10px 10px;display: block;
+    font-size:14px;
+    font-weight: 
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+  position:  relative;
+}
+
+
+.banner-content{
+    position:absolute;
+  top:25%;
+  right:12%;
+}
+.banner-content h1{font-size:  79px;font-weight: 400
+; 
+color:white;
+}
+.banner-content h3{font-size:  30px;
+padding:2px 270px;
+color:white;}
+
+
+.pic{
+ position:absolute;
+ top:40%;
+}
+.bc {
+    width:  33.33%;float:  left;
+    padding:0px 120px;}
+.bc img{max-width:  100%;
+border: 6px solid #f3e8ec;border-radius: 74px;}
+.bc h2{font-size:  30px;padding:  10px 0; color:white;}
+.bc p{font-size:  15px;padding:  0 10px; color:white;}
+
+
+.button{
+ position:absolute;
+right:37%;
+top:80%;
+    padding:70px;
+    
+}
+
+.button a{ 
+text-align:center;
+    text-decoration:none;
+    text-style:none;
+    color:#655d5d;
+    padding:11px 38px;;
+    border-radius: 190px;
+    border: 1px solid #908c8c6b;
+    background-color: #f9f4f1;
+}
+
+
+
+
+.news{
+    background-color:#f6f9f9
+}
+
+
+.news-content{
+    padding:80px;
+}
+
+
+.news-content h1{
+    text-align:center;
+    font-size:40px;
+
+}
+
+.news-pic{ width:33.33%;float:  left;
+padding:0px 20px;
+}
+
+.news-pic img{
+    max-width:  100%;
+}
+
+.news-button{padding:70px}
+
+.news-button a{text-align:center;
+    text-decoration:none;
+    text-style:none;
+    color:#655d5d;
+    padding:11px 38px;;
+    border-radius: 190px;
+    border: 1px solid #908c8c6b;
+    background-color: #f9f4f1;}
+
+
+.news-letter{
+    position:relative;
+}
+
+
+.news-letter img{}
+
+
+.signup{
+    position:absolute;
+    top:40%
+
+
+}
+
+.signup h1{
+    padding:5px 500px;
+    font-size:30px;
+    color:white;
+}
+
+
+.signup p{
+    text-align:center;
+    color:white;
+    padding:3px 40px;
+    font-size:20px;
+}
+.form{
+}
+input[type="email"]{
+    margin:40px;
+font-size:  20px;
+width: 60%;padding:  10px;
+border-radius:  40px;
+color:white;
+border:0;
+background:rgba(255, 255, 255, 0.5);
+}
+
+
+input[type="submit"]{
+    margin:40px;
+font-size: 20px;    
+width: 30%;padding: 10px;
+border-radius: 30px;
+background:white;
+border:0;
+position:absolute;
+transform:translateX(-35%);
+animation-name:move;
+animation-delay:1s;
+animation-duration:1s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+color:rgba(0, 0, 0, 0.5);
+}
+@keyframes move{
+    0%{transform:  translateX(-35%);}
+    100%{transform:  translateX(-40%);}
+}
+
+
+
+.ipsum{
+ 
+}
+.para{
+    width:50%;
+    float:left;
+}
+
+.para p{
+    font-size:16px;
+}
+
+.para h1{
+    padding:40px;
+    font-size:30px;}
+
+.para img{
+    padding:10px;
+    width:50%
+}
+
+.pbutton{
+    padding:30px;
+} 
+
+.pbutton a{text-align:center;
+    text-decoration:none;
+    text-style:none;
+    color:#f9f0f0;
+    padding:11px 38px;;
+    border-radius: 190px;
+    border: 1px solid #908c8c6b;
+    background-color: #d75d0e;}
+
+
+.pbutton a:hover{background:#4b4e73}
+
+
+
+.list-section{
+    height:  400px;
+    background: #d75d0e;color:  white;text-align:  center;}
+
+.list{width:  33.33%;float:  left;}
+
+.list ul{
+    padding:110px;
+}
+
+.list ul li{
+ 
+    list-style:  none;font-size:  18px;font-weight:  400;padding:6px;
+    }
+
+
+.footer{
+position:  relative;
+    
+}
+.fpara{
+    position:absolute;
+    font-size:25px;
+    padding:0px;
+    top:585%;
+    
+ 
+}
+
+
+.fpara p{
+    color:white;
+}
